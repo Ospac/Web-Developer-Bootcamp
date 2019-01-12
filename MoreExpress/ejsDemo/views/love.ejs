@@ -1,0 +1,8 @@
+<% include partials/header %>
+<h1>fall in love with : <%= name.toUpperCase() %></h1>
+<% if(name.toLowerCase() === "suhyung"){%>
+        <p>Welcome! you have a goood Choice</p>
+<% } else{ %>
+        <p>You should have said suhyung!</p>
+<% } %>
+<% include partials/footer %>
